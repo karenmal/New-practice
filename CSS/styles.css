@@ -1,0 +1,43 @@
+    
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+header, footer { 
+    background-color: #687b96;
+    );
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  header h1 {
+    text-shadow: 3px 3px 5px darkslategray;
+    padding: 0;
+    margin: 10px 50px;
+    float: left;
+}
+.topnav {
+      overflow: hidden;
+      background-color: #36404e;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: #98a5b8;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .topnav a:hover {
+      background-color: #b0bac8;
+      color: black;
+    }
+    
+    
+    .header {
+      background-color: #383c46;
+      text-align: center;
+      padding: 20px;
+    }
