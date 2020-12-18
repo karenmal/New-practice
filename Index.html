@@ -10,7 +10,11 @@
 <body>
     <header class="clearfix">
        <h1>Rock Bands in History</h1>
-        <nav>
+       <script src="js/kmsrc.js"></script>
+       
+       </body>
+       </html>
+       <nav>
             <ul>
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="pop.html">Pop</a></li>
@@ -22,7 +26,7 @@
 
     <button onclick="myFunction()">Try it</button>
     
-    <p id="demo"></p>
+   
     
     <script>
     function myFunction() {
@@ -37,11 +41,25 @@
     }
     </script>
 
-<p id="demo"></p>
+<h2>JavaScript For Loop</h2>
+       
+
+
+<script src="js/bandspopular.js"></script>
+<script>
+function myFunction() {
+    var bands = ["Metallica", "ACDC", "Guns n Roses", "Def Leppard"];
+var text = "";
+var i;
+for (i = 0; i < bands.popular; i++) {
+  text += bands[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
 
 <script>
 function myFunction() {
-  var person = prompt("Please enter your name", "Harry Potter");
+  var person = prompt("Please enter your name", "firstName");
   if (person != null) {
     document.getElementById("demo").innerHTML =
     "Hello " + person + "! How are you today?";
@@ -49,14 +67,26 @@ function myFunction() {
 }
 </script>
 
+
+<script src="js/concerts.js"></script>
+<script>
+var text = "";
+var i;
+for (i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+
 <main>
     <center><ul class="image-gallery">
         <img src="https://image.shutterstock.com/image-photo/silhouette-guitar-player-action-on-600w-463813661.jpg" alt="silhouette guitar player" width = "600" height = "500">
         <img src="https://image.shutterstock.com/image-photo/bands-silhouettes-on-concert-600w-540487849.jpg" alt="bands in concert" width = "600" height = "500"
         </ul>
     </center>
-    <p align=center>The history of rock music has been volatile and unpredictable as the genre has constantly redefined and reinvented itself since its emergence in the late 1940s. Not surprisingly,<p>
-    <p align=center>then, it can be difficult to apply a straightforward definition to such a restless musical format.</p>
+    <p align=center>The history of rock music has been volatile and unpredictable as the genre has constantly redefined and reinvented itself since its emergence in the late 1940s. Not surprisingly, then, it can be difficult to apply a straightforward definition to such a restless musical format.</p>
 </main>
 
 <footer>
